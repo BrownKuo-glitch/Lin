@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林秝磑 (小林) | 台灣房屋 新店央北團隊</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#111827', // 更沉穩的深藍灰，與深色西裝搭配
+                            orange: '#ea580c', // 台灣房屋橘
+                            light: '#f8fafc' // 乾淨背景
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 增加一些滑動進入的動畫效果，提升高級感 */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        .link-card {
+            opacity: 0;
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
+        .link-card:nth-child(1) { animation-delay: 0.1s; }
+        .link-card:nth-child(2) { animation-delay: 0.2s; }
+        .link-card:nth-child(3) { animation-delay: 0.3s; }
+        .link-card:nth-child(4) { animation-delay: 0.4s; }
+    </style>
+</head>
+<body class="bg-slate-100 min-h-screen flex items-center justify-center p-4 md:p-8 font-sans antialiased text-slate-800">
+
+    <div class="max-w-md w-full bg-white rounded-[2rem] shadow-2xl overflow-hidden relative animate-fade-in-up">
+        
+        <div class="h-40 bg-brand-blue relative overflow-hidden">
+            <div class="absolute -top-10 -right-10 w-40 h-40 bg-white opacity-5 rounded-full blur-2xl"></div>
+            <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/30 to-transparent"></div>
+        </div>
+
+        <div class="relative px-8 pb-8 flex flex-col items-center -mt-20 z-10">
+            
+            <div class="relative mb-4">
+                <img id="profile-img" 
+                     src="S__10338316.jpg" 
+                     alt="林秝磑 (小林)" 
+                     class="w-36 h-36 rounded-full border-4 border-white shadow-lg object-cover bg-gray-200">
+            </div>
+
+            <h1 class="text-2xl font-bold text-slate-900 tracking-wide">林秝磑 (小林)</h1>
+            <div class="inline-block mt-2 px-3 py-1 bg-orange-50 border border-orange-200 rounded-full mb-3">
+                <p class="text-sm text-brand-orange font-bold tracking-wider">台灣房屋 | 業務經理</p>
+            </div>
+            
+            <div class="text-center w-full px-4 pt-1 pb-4">
+                <p class="text-base text-brand-blue font-semibold mb-1">用專業幫你找對房，</p>
+                <p class="text-base text-brand-blue font-semibold">用真誠陪你做決定。</p>
+            </div>
+
+            <div class="flex space-x-3 w-full max-w-[280px]">
+                <a href="tel:0987565765" class="flex-1 flex items-center justify-center py-2.5 bg-slate-800 text-white rounded-xl shadow-sm hover:bg-slate-700 transition-colors font-medium text-sm">
+                    <i class="fas fa-phone-alt mr-2"></i>撥打電話
+                </a>
+                <a href="https://line.me/ti/p/~cathyaxxx?openExternalBrowser=1" target="_blank" class="flex-1 flex items-center justify-center py-2.5 bg-[#06C755] text-white rounded-xl shadow-sm hover:bg-[#05b34c] transition-colors font-medium text-sm">
+                    <i class="fab fa-line text-lg mr-1.5"></i>加 LINE
+                </a>
+            </div>
+
+            <blockquote class="text-center text-slate-600 text-sm mt-7 leading-relaxed font-medium bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                我相信，買房子這件事，<br>
+                客戶最需要的不是壓力，而是理解；<br>
+                不是話術，而是實話；<br>
+                不是催促成交，而是真正站在你立場的幫助。<br>
+                我的工作，不只是帶你看房，<br>
+                更是幫你找到適合自己的家。<br>
+                <span class="block mt-2 font-bold text-slate-800 text-base">新店買房找小林</span>
+            </blockquote>
+        </div>
+
+        <div class="px-8 pb-10 space-y-4">
+            
+            <a href="https://youtube.com/channel/UCikeoK7NtJ368PjtICFDqJA?si=S3J6XWFsmA666tot&openExternalBrowser=1" target="_blank" class="link-card block group">
+                <div class="flex items-center p-4 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:border-red-200 hover:bg-red-50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-slate-50 text-red-600 flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fab fa-youtube text-2xl"></i>
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h2 class="font-bold text-slate-800 text-base">YouTube 頻道</h2>
+                        <p class="text-xs text-slate-500 mt-0.5">@新店買房找小林</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-red-400 group-hover:-translate-x-1 transition-transform duration-300"></i>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/liweilin1213?openExternalBrowser=1" target="_blank" class="link-card block group">
+                <div class="flex items-center p-4 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:border-pink-200 hover:bg-pink-50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-slate-50 text-pink-600 flex items-center justify-center group-hover:bg-gradient-to-tr group-hover:from-yellow-400 group-hover:via-pink-500 group-hover:to-purple-500 group-hover:text-white transition-all duration-300">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h2 class="font-bold text-slate-800 text-base">Instagram</h2>
+                        <p class="text-xs text-slate-500 mt-0.5">@liweilin1213</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-pink-400 group-hover:-translate-x-1 transition-transform duration-300"></i>
+                </div>
+            </a>
+
+            <a href="https://www.tiktok.com/@liweilin1213?_r=1&_t=ZS-95AguDQTiHk&openExternalBrowser=1" target="_blank" class="link-card block group">
+                <div class="flex items-center p-4 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:border-slate-300 hover:bg-slate-50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-slate-50 text-slate-800 flex items-center justify-center group-hover:bg-slate-800 group-hover:text-white transition-colors duration-300">
+                        <i class="fab fa-tiktok text-xl"></i>
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h2 class="font-bold text-slate-800 text-base">TikTok</h2>
+                        <p class="text-xs text-slate-500 mt-0.5">@liweilin1213</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-slate-600 group-hover:-translate-x-1 transition-transform duration-300"></i>
+                </div>
+            </a>
+
+            <a href="https://www.facebook.com/lin.li.wei.939807?openExternalBrowser=1" target="_blank" class="link-card block group">
+                <div class="flex items-center p-4 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:border-blue-200 hover:bg-blue-50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-slate-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h2 class="font-bold text-slate-800 text-base">Facebook</h2>
+                        <p class="text-xs text-slate-500 mt-0.5"> lin.li.wei.939807</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-slate-300 group-hover:text-blue-400 group-hover:-translate-x-1 transition-transform duration-300"></i>
+                </div>
+            </a>
+            
+        </div>
+        
+        <div class="px-8 pb-6 text-center">
+            <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 space-y-2">
+                <div>
+                    <i class="fas fa-map-marker-alt text-brand-orange mb-1 text-xl"></i>
+                    <h3 class="font-bold text-slate-800 text-sm mb-0.5">新北市新店區十四張路59號1樓</h3>
+                    <p class="text-xs text-slate-500">新店央北旗艦特許加盟店</p>
+                </div>
+                <div>
+                    <p class="text-xs text-slate-600 font-medium">
+                        <i class="fas fa-phone-alt mr-1.5 text-slate-400"></i>市話：(02) 7730-1313
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-brand-blue py-5 text-center px-4">
+            <p class="text-[11px] text-slate-400 leading-relaxed mb-1">
+                台灣房屋新店央北旗艦特許加盟店<br>
+                弘年房屋仲介有限公司<br>
+                統編：90576238<br>
+                營業員證號：(109) 登字第366195號
+            </p>
+            <p class="text-[10px] text-slate-600 mt-2">© 2026 林秝磑 (小林) 房產顧問</p>
+        </div>
+
+    </div>
+</body>
+</html>
